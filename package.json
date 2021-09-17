@@ -1,0 +1,22 @@
+{
+    "name": "protifolio",
+    "version": "1.0.0",
+    "description": "My Personal Portifolio",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "MERN",
+        "MongoBD",
+        "Express",
+        "React.js",
+        "Node.js",
+        "Fullstack"
+    ],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.17.1"
+    }
+}
