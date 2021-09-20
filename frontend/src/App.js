@@ -2,13 +2,13 @@ import React from "react";
 //Global Style
 import GlobalStyle from "./components/GlobalStyle";
 //Componentes
-import AboutUs from "./pages/AboutUs";
+import OnePage from "./pages/OnePage";
 
 function App() {
     return (
         <dv>
             <GlobalStyle/>
-            <AboutUs/>
+            <OnePage/>
         </dv>
     );
 }

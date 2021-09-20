@@ -26,8 +26,8 @@ const GlobalStyle= createGlobalStyle`
     h2{
         font-style: normal;
         font-weight: 800;
-        font-size: 36px;
-        line-height: 44px;
+        font-size: 39px;
+        line-height: 70px;
         text-align: center;
         letter-spacing: 0.05em;
         text-transform: uppercase;
@@ -57,6 +57,28 @@ const GlobalStyle= createGlobalStyle`
         color: #ccc;
         font-size:1.4rem;
         line-height:150%;
+    }
+    .header{
+        margin:5%; 
+        padding-top: 5%; 
+    }
+    .title{
+        text-align: center;
+        margin-top: -39px;
+    }
+    .line-left{
+        width: 25%;
+        margin-left: -6%;
+        background:#E6112B;
+        border: 1px solid #E6112B;
+    }
+    .line-rigth{
+        width:25%;
+        float:right;
+        margin-right: -6%;
+        margin-top: -11px;
+        background:#E6112B;
+        border: 1px solid #E6112B;
     }
 `;
 export default GlobalStyle;
