@@ -3,13 +3,11 @@ export const Header = styled.div`
 margin:5%; 
 padding-top: 5%;  
 .line-left{
-    width: 25%;
     margin-left: -6%;
     background:#E6112B;
     border: 1px solid #E6112B;
 }
 .line-rigth{
-    width:25%;
     float:right;
     margin-right: -6%;
     margin-top: -11px;

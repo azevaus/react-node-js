@@ -11,24 +11,24 @@ const ProductsSection = ()=>{
             <div>
                 <Images>
                     <SectionImage>
-                        <img src="https://images.pexels.com/photos/7000/fre-sonneveld-powerlines.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"></img>
+                        <img src="./images/services4.png"></img>
                         <h4>Energia</h4>
                         <span>TRANSMISSÃO, GERAÇÃO E DISTRIBUIÇÃO</span>
                     </SectionImage>        
                     <SectionImage>
-                        <img src="https://images.pexels.com/photos/356036/pexels-photo-356036.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"></img>
+                        <img src="./images/services2.png"></img>
                         <h4>Solar</h4>
                     </SectionImage>
                     <SectionImage>
-                        <img src="https://images.pexels.com/photos/8719572/pexels-photo-8719572.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"></img>
+                        <img src="./images/services3.png"></img>
                         <h4>Telecon</h4>
                     </SectionImage>
                     <SectionImage>
-                        <img src="https://images.pexels.com/photos/409701/pexels-photo-409701.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"></img>
+                        <img src="./images/services5.png"></img>
                         <h4>Iluminação pública</h4>
                     </SectionImage>
                     <SectionImage>
-                        <img src="https://images.pexels.com/photos/6302217/pexels-photo-6302217.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"></img>
+                        <img src="./images/services6.png"></img>
                         <h4>Serviços</h4>
                         <span>galvanização e ensaios</span>
                     </SectionImage>            
@@ -95,7 +95,7 @@ export const SectionImage = styled.li`
 export const Line = styled.hr`
     background: #E6112B;
     border: solid 1px #E6112B;
-    width:60%;
+    width:882px;
     margin-top:-1.2%;
 `;
 export default ProductsSection

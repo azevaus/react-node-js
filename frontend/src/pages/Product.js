@@ -1,7 +1,8 @@
 import React from "react";
+import Solar from "../components/products/Solar";
 const Products = () =>{
     return(
-        <div>Produtos</div>
+        <Solar/>
     )
 }
 export default Products

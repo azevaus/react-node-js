@@ -7,6 +7,7 @@ import { Route, Switch} from 'react-router-dom';
 import OnePage from "./pages/OnePage";
 import Products from "./pages/Product";
 import Nav from "./components/Nav";
+import Footer from "./components/Footer";
 
 function App() {
     return (
@@ -14,13 +15,14 @@ function App() {
             <GlobalStyle/>
             <Nav/>
             <Switch>
-            <Route exact path="/">
-                <OnePage/>
-            </Route>
-            <Route path="/products">
-                <Products/>
-            </Route>
+                <Route exact path="/">
+                    <OnePage/>
+                </Route>
+                <Route path="/products">
+                    <Products/>
+                </Route>
             </Switch>
+            <Footer/>
         </dv>
     );
 }

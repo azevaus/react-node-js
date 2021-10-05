@@ -16,7 +16,7 @@ const NewsSection = () =>{
                         <h2>Lorem Ipsum is simply</h2>
                     </div>
                     <div>
-                        <img src="https://images.pexels.com/photos/159397/solar-panel-array-power-sun-electricity-159397.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"></img>
+                        <img src="./images/blog1.png"></img>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley...</p>
                         <button>ler notícia completa</button>
                     </div>
@@ -27,7 +27,7 @@ const NewsSection = () =>{
                         <h2>Lorem Ipsum is simply</h2>
                     </div>
                     <div>
-                        <img src="https://images.pexels.com/photos/159397/solar-panel-array-power-sun-electricity-159397.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"></img>
+                        <img src="./images/blog2.png"></img>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley...</p>
                         <button>continue lendo</button>
                     </div>
@@ -38,7 +38,7 @@ const NewsSection = () =>{
                         <h2>Lorem Ipsum is simply</h2>
                     </div>
                     <div>
-                        <img src="https://images.pexels.com/photos/159397/solar-panel-array-power-sun-electricity-159397.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"></img>
+                        <img src="./images/blog1.png"></img>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley...</p>
                         <button>ler notícia completa</button>
                     </div>
@@ -52,8 +52,8 @@ export const Header = styled.div`
     flex-direction:column;
     padding: 4rem 2rem;
     hr{
-        width:75%;
-        margin-left:27%;
+        width:1198px;
+        margin-left:30%;
         margin-top:-1.2%;
         background: #fff;
         border: solid 1px #fff;

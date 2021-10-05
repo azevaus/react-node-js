@@ -12,7 +12,7 @@ const Nav = ()=>{
     }
     return(
         <StyledNav>
-            <h1><Link to="/">Brametal</Link></h1>
+            <h1><Link to="/"><img src="./images/logo1.png"></img></Link></h1>
             <ul>
                 <li><Link to="/">{menuOptions.home}</Link></li>
                 <li><Link to="/products">{menuOptions.products}</Link></li>
@@ -47,6 +47,11 @@ const StyledNav = styled.nav`
     }
     a:hover{
         color:#eb1c23;
+    }
+    img{
+        width: 201px;
+        height: 44px;
+        left: 32px;
     }
 `;
 export default Nav
